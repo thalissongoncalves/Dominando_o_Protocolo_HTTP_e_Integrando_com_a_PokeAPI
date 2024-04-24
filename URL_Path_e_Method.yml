@@ -1,0 +1,40 @@
+Requisição HTTP
+
+URL: https://pokeapi.co/api/v2/pokemon/${id}
+     ${Endereço}/${path = caminho de identificação do recurso}
+
+Request Method: GET | POST | PUT | DELETE
+  GET: Buscar alguma informação na API
+  POST: Inserir alguma informação na API
+  PUT: Atualizar alguma informação na API
+  DELETE: Deletar alguma informação na API
+
+CRUD: Create | Update | List | Delete
+
+Query String: https://pokeapi.co/api/v2/pokemon?type=grass&name=i
+              ?type=grass&name=i
+              type = grass
+              name = i
+
+HEADERS:
+  Request Headers
+    content-type: application/json
+
+BODY:
+  {
+    "name": "Teste"
+  }
+
+Status Code:
+  200 - OK
+  201 - CREATED
+  400 - BAD REQUEST
+  401 - UNAUTHORIZED
+  404 - NOT FOUND
+  500 - ERROR
+  httpstatusdogs.com
+
+Response Headers
+
+
+Response Body
